@@ -1,5 +1,131 @@
+@font-face
+    font-family 'Quotus-Bold'
+    src url('../fonts/Quotus-Bold.ttf')
+@font-face
+    font-family 'Quotus-Thin'
+    src url('../fonts/Quotus-Thin.ttf')
+.container
+    width 1460px
+    margin 0 auto
+.wrapper
+    justify-content center
+    text-align center
+.row
+    display flex
+    justify-content center
+.default
+
 body
     margin 0
     padding 0
-header h1
-    color #00f
+    background #fff
+    header
+        background-image url('../img/headerbg.png') no-repeat top / cover
+        background-size cover
+        background-repeat none
+        height 1080px
+        display flex
+        flex-direction column
+        align-items center
+        position relative
+        .logo
+            align-self center 
+            padding 20px
+        .icons
+            position absolute
+            right 30px
+            align-self left 
+        nav 
+            .container
+                .navbar
+                    padding 20px
+                    margin 0 auto
+                    display flex
+                    justify-content center
+                    .menu
+                        font-size 1.5em
+                        margin 0 auto
+                        .menu-item
+                            display inline
+                            a
+                                font-family 'Quotus-Bold'
+                                font-size: 24px 
+                                font-weight 900
+                                text-transform uppercase
+                                color #2c3341
+                                margin 0 60px
+        h2
+            font-family 'Quotus-Bold'
+            font-size 35px
+            font-weight 300
+            color #2c3341
+            text-transform uppercase
+        h1
+            font-family 'Quotus-Bold'
+            font-size 174px
+            color #fff
+            text-transform uppercase
+            margin 0
+            letter-spacing 0.03em
+        .text-picture1
+            z-index 3
+            position absolute
+            right 0px
+            top 239px
+        .text-picture2
+            z-index 2
+            position absolute
+            left 455px
+            top 444px
+        .text-picture3
+            z-index 2
+            position absolute
+            right 0px
+            top 320px
+    /*Section*/
+    section
+        .container
+            .accessories
+                margin-top -150px
+                width 50%
+                h2 
+                    margin 0
+                    font-family 'Quotus-Bold'
+                    font-size 80px
+                    color #2c3341
+                    text-transform capitalize
+                    .bold
+                        font-weight 600
+                h4
+                    margin 0
+                    font-family 'Quotus-Thin'
+                    font-size 80px
+                    font-weight 300
+                    color #2c3341
+                    text-transform uppercase
+                p
+                    font-family 'Roboto'
+                    font-size 21px
+                    font-weight 300
+                a.btn-default
+                    background-color #3acdd5
+                    font-size 2em
+                    cursor pointer
+                    padding 0.3em 2em
+                    margin 2em 0.1em 0.1em 0
+                    border 0.16em solid rgba(255,255,255,0)
+                    border-radius 2em
+                    box-sizing border-box
+                    text-decoration none
+                    font-family 'Roboto',sans-serif
+                    font-weight 300
+                    color #FFFFFF
+                    text-shadow 0 0.04em 0.04em rgba(0,0,0,0.35)
+                    text-align center
+                    transition all 0.2s
+                &:hover
+                    border-color rgba(255,255,255,1)
+                
+
+
+
